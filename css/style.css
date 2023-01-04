@@ -13,35 +13,48 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .color_contain {
     height: 50%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.g_dark {
-    background-color: rgba(172, 255, 47, 0.5);
+#dark_green {
+    background-color: rgba(0, 128, 0, 0.2);
+}
+#light_green {
+    background-color: rgb(0, 255, 0);
 }
 
-.r_dark {
-    background-color: rgba(255, 0, 0, 0.5);
+#dark_red {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+#light_red {
+    background-color: red;
 }
 
-.y_dark {
-    background-color: rgba(255, 255, 0, 0.5);
+#dark_yellow {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+#light_yellow {
+    background-color: yellow;
 }
 
-.b_dark {
-    background-color: rgba(0, 0, 255, 0.5);
+#dark_blue {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+#light_blue {
+    background-color: blue;
 }
 
 .color_contain div {
-    height: 40%;
-    width: 20%;
+    height: 50%;
+    width: 25%;
+    border-radius: 5%;
 }
